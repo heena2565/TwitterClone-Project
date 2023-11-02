@@ -25,7 +25,7 @@ class HomeController extends Controller
 
     public function index()
     {
-        $tweets = Tweet::get()->sortDesc();
+        $tweets = Tweet::where ('user_id',auth()->user()->id)->get()->sortDesc();
         return view('home',['tweets'=>$tweets]);
     }
 
