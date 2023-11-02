@@ -1,0 +1,98 @@
+
+  .left-side,
+  .right-side,
+  .center {
+    height: 100vh;
+    width: 100%;
+  }
+
+  .left-side {
+    width: 95%;
+    font-size: x-large;
+    color: white;
+  }
+
+  input.comment-class {
+    padding: 10px;
+    width: 350px;
+  }
+
+  .comment-submit-button {
+    padding: 0;
+    border: none;
+    background: none;
+
+  }
+
+  .tip {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    background: transparent;
+    border: 10px solid #ccc;
+  }
+
+  .tip-up {
+    top: -25px;
+    /* Same as body margin top + border */
+    left: 10px;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    border-top-color: transparent;
+  }
+
+  .tip-down {
+    bottom: -25px;
+    left: 10px;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+  }
+
+  .tip-left {
+    top: 10px;
+    left: -25px;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+  }
+
+  .tip-right {
+    top: 10px;
+    right: -25px;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+  }
+
+  .dialogbox .body {
+    position: relative;
+    max-width: 453px;
+    height: auto;
+    margin: 20px 10px;
+    padding: 3px;
+    background-color: #DADADA;
+    border-radius: 3px;
+    border: 5px solid #ccc;
+  }
+
+  .body .message {
+    min-height: 30px;
+    border-radius: 3px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #797979;
+  }
+  .hr-class {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+.likes-count {
+    margin-left: 20px;
+}
+label.profile-label {
+    font-size: 15px;
+}
